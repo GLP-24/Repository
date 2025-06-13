@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.titular {
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#contenedor-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-top: 0;
+}
+
+#container, #conteiner2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#container p {
+    color: #b22222;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+#conteiner2 p {
+    color: #5cb85c;
+    font-style: italic;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    margin-left: 30px;
+    margin-top: 50px;
+}
